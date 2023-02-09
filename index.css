@@ -472,7 +472,7 @@ hr { width: 0;
 .inner-container{
     display: flex;
     justify-content: space-around;
-    gap: 2.5rem;
+    gap: 2rem;
     /* margin-right: auto; */
     margin-left: -150px;
 
@@ -522,7 +522,7 @@ hr { width: 0;
 
 
 
-.inner-container:hover .white-layer {
+.edu-container:hover .white-layer {
     height: 100%;
     transition: all 0.5s ease-in-out;
   }
@@ -533,8 +533,54 @@ hr { width: 0;
     left: 0;
     right: 0;
     height: 0;
-    background-color: white;
-    transition: all 0.5s ease-in-out;
+    background-color: rgba(27, 26, 26, 0.363);
+    transition: all .2s ease-in-out;
     opacity: 0.3;
   }
-  
+.container-5{
+    width: 95vw;
+    height: 800px;
+    
+    background-color: rgba(0, 0, 0, 0.144);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 100px;
+    right:60px;
+    border-radius: 12px;
+    
+}
+.foot-img{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+    height: 600px;
+    border-radius: 24px;
+    box-shadow: 5px 5px 5px black;
+    
+
+}
+.foot-box{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.367);
+    color:bisque;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+li{
+    list-style: none;
+}
+.foot-logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 12px;
+}
