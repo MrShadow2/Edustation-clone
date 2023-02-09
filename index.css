@@ -157,20 +157,28 @@ hr { width: 0;
     
 }
 
-.option {
+
+/* .option {
     margin-bottom: 5px;
     text-align: center;
-}
+} */
 .option:hover{
     background-color: orange;
-   
     color: white;
     border-radius: 24px;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+
+    
 }
 .option1:hover{
     background-color: orange;
     color: white;
     border-radius: 24px;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .nav-items:hover .drop-down{
@@ -243,6 +251,7 @@ hr { width: 0;
     font-size: large;
     height: 70px;
     width: 220px;
+    cursor: pointer;
     
 }
 .bt2{
@@ -555,7 +564,7 @@ hr { width: 0;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    width: 80vw;
+    width: 85vw;
     height: 600px;
     border-radius: 24px;
     box-shadow: 5px 5px 5px black;
@@ -567,9 +576,9 @@ hr { width: 0;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
-    height: 100px;
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.367);
+    height: 80px;
+    border-radius: 24px;
+    background-color: rgba(0, 0, 0, 0.792);
     color:bisque;
     display: flex;
     justify-content: space-around;
@@ -583,4 +592,46 @@ li{
     height: 50px;
     width: 50px;
     border-radius: 12px;
+}
+.cr:hover{
+    color: orange;
+}
+.tran{
+    transition: all .2s ease-in-out;
+}
+.footer-about{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.589);
+    color: white;
+    border-radius: 24px;
+    bottom:150px;
+    right: 70px;
+    width: 50%;
+}
+.form{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    bottom: 340px;
+    right: 290px;
+}
+.contact{
+    position: absolute;
+    /* height: 450px; */
+    padding: 30px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.601);
+    top: 150px;
+    left: 200px;
+    border-radius: 24px;
+}
+.gmail{
+    text-align: center;
+    border-radius: 12px;
+    height: 50px;
+    width: 300px;
+    border: .1px solid orange;
+    margin: 30px auto;
 }
