@@ -528,10 +528,7 @@ hr { width: 0;
     width: 150px;
     box-shadow: 2px 2px 2px black;
 }
-.bt-price:hover{
-    transform: scaleX(5);
-    transform: scaleY(5);
-}
+
 .txt-color1{
     color: white;
 }
